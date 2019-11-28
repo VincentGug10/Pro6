@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cart</title>
+    <link href="cart.css" rel="stylesheet">
+
+
+    <script>
+        simpleCart({
+            checkout: {
+                type: "PayPal",
+                email: "you@yours.com"
+            }
+        });	
+    </script>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="banner-image">
+            <div class="centered"> The Açaí Shop</div>
+        </div>
+
+        <section class="container2">
+            <div class="navi">
+                <a href="project2pg1.html">Home</a>
+            </div>
+            <div class="navi">
+                <a href="project2pg2.html">About</a>
+            </div>
+            <div class="navi">
+                <a href="project2pg3.html">Catalog</a>
+            </div>
+            <div class="navi">
+                <a class="active" href="project2pg4.html">Cart</a>
+            </div>
+            <div class="navi">
+                <a href="project2pg5.html">Checkout</a>
+            </div>
+
+        </section>
+
+    </header>
+
+    <div class="shopping-cart">
+
+        <div class="title">
+            Shopping Cart
+        </div>
+
+
+        <div class="item">
+
+
+
+
+            <div class="description">
+                <span>Acai Bowl</span>
+                <span>The Double Nut</span>
+                <span>Small</span>
+            </div>
+
+            <div class="quantity">
+
+                <input type="text" name="name" value="2">
+
+            </div>
+
+            <div class="total-price">$18</div>
+        </div>
+
+
+        <div class="item">
+
+
+
+
+            <div class="description">
+                <span>Smoothie</span>
+                <span>Kale</span>
+                <span>Small</span>
+            </div>
+
+            <div class="quantity">
+
+                <input type="text" name="name" value="1">
+
+            </div>
+
+            <div class="total-price">$6</div>
+        </div>
+
+
+        <div class="item">
+
+
+
+
+            <div class="description">
+                <span>Acai Bowl</span>
+                <span>Bella Nutella</span>
+                <span>Large</span>
+            </div>
+
+            <div class="quantity">
+
+                <input type="text" name="name" value="1">
+
+            </div>
+
+            <div class="total-price">$12</div>
+        </div>
+        <a class="button" href="project2pg5.html">Proceed to Checkout</a>
+    </div>
+</body>
+
+</html>
